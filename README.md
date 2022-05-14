@@ -4,6 +4,7 @@ create SC2 agent using Q-Learning
 The project contains 3 test SC2 agents: simple_agent,smart_agent,sparse_agent. 
 
 The following line is used to start the agent:
+
 python -m pysc2.bin.agent --map Tarialis --agent PySC2Agent.sparse_agent.SparseAgent --agent_race zerg --max_agent_steps 0 -norender
 
 Requirements:
